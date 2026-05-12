@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialidad Desarrollo Web</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="hero">
+
+            <h1>Especialidad Desarrollo Web</h1>
+
+            <p>
+                La especialidad de Desarrollo Web prepara estudiantes en áreas tecnológicas
+                relacionadas con programación, diseño web, soporte técnico y tecnologías digitales.
+            </p>
+
+        </div>
+    </header>
+
+    <!-- INFORMACIÓN GENERAL -->
+    <section class="general">
+
+        <h2>¿Qué es Desarrollo Web?</h2>
+
+        <div class="info-general">
+
+            <div class="info-box">
+                <h3>Desarrollo</h3>
+
+                <p>
+                    El desarrollo web consiste en crear páginas y sistemas para internet
+                    utilizando programación, diseño y herramientas tecnológicas modernas.
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h3>Objetivo</h3>
+
+                <p>
+                    Esta especialidad busca preparar estudiantes con habilidades técnicas
+                    para el mundo laboral y tecnológico actual.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SUB ÁREAS -->
+    <section class="subareas">
+
+        <h2>Sub Áreas de Desarrollo Web</h2>
+
+        <div class="contenedor-subareas">
+
+            <!-- PROGRAMACIÓN -->
+            <div class="subarea">
+
+                <h3>Programación</h3>
+
+                <div class="mini-contenedor">HTML y CSS</div>
+                <div class="mini-contenedor">JavaScript</div>
+                <div class="mini-contenedor">Lógica de programación</div>
+                <div class="mini-contenedor">Desarrollo de sistemas</div>
+                <div class="mini-contenedor">Creación de páginas web</div>
+
+                <button class="btn-vermas" onclick="mostrarCertificaciones('cert-programacion')">
+                    Ver más
+                </button>
+
+                <div class="certificaciones-extra oculto" id="cert-programacion">
+
+                    <p>Certificaciones:</p>
+
+                    <div class="mini-contenedor">HTML</div>
+                    <div class="mini-contenedor">CSS</div>
+                    <div class="mini-contenedor">JavaScript Básico</div>
+
+                </div>
+
+            </div>
+
+            <!-- DISEÑO WEB -->
+            <div class="subarea">
+
+                <h3>Diseño Web</h3>
+
+                <div class="mini-contenedor">Diseño de interfaces</div>
+                <div class="mini-contenedor">Uso de colores</div>
+                <div class="mini-contenedor">Tipografías</div>
+                <div class="mini-contenedor">Diseño responsive</div>
+                <div class="mini-contenedor">Diagramas de Flujo</div>
+
+                <button class="btn-vermas" onclick="mostrarCertificaciones('cert-diseno')">
+                    Ver más
+                </button>
+
+                <div class="certificaciones-extra oculto" id="cert-diseno">
+
+                    <p>Certificaciones:</p>
+
+                    <div class="mini-contenedor">UI Básico</div>
+                    <div class="mini-contenedor">Diseño Responsive</div>
+                    <div class="mini-contenedor">Maquetación Web</div>
+
+                </div>
+
+            </div>
+
+            <!-- SOPORTE -->
+            <div class="subarea">
+
+                <h3>Soporte</h3>
+
+                <div class="mini-contenedor">Mantenimiento</div>
+                <div class="mini-contenedor">Reparación de equipos</div>
+                <div class="mini-contenedor">Instalación de programas</div>
+                <div class="mini-contenedor">Cisco Packet Tracer</div>
+                <div class="mini-contenedor">Solución de errores</div>
+
+                <button class="btn-vermas" onclick="mostrarCertificaciones('cert-soporte')">
+                    Ver más
+                </button>
+
+                <div class="certificaciones-extra oculto" id="cert-soporte">
+
+                    <p>Certificaciones:</p>
+
+                    <div class="mini-contenedor">Soporte Técnico</div>
+                    <div class="mini-contenedor">Redes Básicas</div>
+                    <div class="mini-contenedor">Mantenimiento de PCs</div>
+
+                </div>
+
+            </div>
+
+            <!-- TI -->
+            <div class="subarea">
+
+                <h3>TI</h3>
+
+                <div class="mini-contenedor">Mecanografía</div>
+                <div class="mini-contenedor">Excel Básico</div>
+                <div class="mini-contenedor">LibreOffice</div>
+
+                <button class="btn-vermas" onclick="mostrarCertificaciones('cert-ti')">
+                    Ver más
+                </button>
+
+                <div class="certificaciones-extra oculto" id="cert-ti">
+
+                    <p>Certificaciones:</p>
+
+                    <div class="mini-contenedor">Excel</div>
+                    <div class="mini-contenedor">Ofimática</div>
+                    <div class="mini-contenedor">Herramientas Digitales</div>
+
+                </div>
+
+            </div>
+
+            <!-- INGLÉS -->
+            <div class="subarea">
+
+                <h3>Inglés Técnico</h3>
+
+                <div class="mini-contenedor">Vocabulario técnico</div>
+                <div class="mini-contenedor">Documentación</div>
+                <div class="mini-contenedor">Tutoriales en inglés</div>
+                <div class="mini-contenedor">Términos informáticos</div>
+                <div class="mini-contenedor">Comunicación técnica</div>
+
+                <button class="btn-vermas" onclick="mostrarCertificaciones('cert-ingles')">
+                    Ver más
+                </button>
+
+                <div class="certificaciones-extra oculto" id="cert-ingles">
+
+                    <p>Certificaciones:</p>
+
+                    <div class="mini-contenedor">English Basics</div>
+                    <div class="mini-contenedor">Technical English</div>
+                    <div class="mini-contenedor">Reading Skills</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Especialidad Desarrollo Web © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
